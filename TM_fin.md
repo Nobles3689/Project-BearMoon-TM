@@ -1374,5 +1374,5 @@
   - `withdraw(exceedBalance)` 호출 시 반드시 `InsufficientBalance()`로 revert
   - ETH 수신 실패 시 `ETHTransferFailed()` 발생 검증
 
-> **Note:** 각 섹션의 세부 위협 모델은 동일한 양식(`Inputs` / `Branches…` / `Negative behavior` / `Negative test`)으로 작성되어야 합니다. 이후 각 파일별로 상세 내용을 순차적으로 추가해 드릴 수 있습니다.
+> **Note:** 각 섹션의 세부 위협 모델은 동일한 양식(`Inputs` / `Branches…` / `Negative behavior` / `Negative test`)으로 작성되어야 합니다.
 
